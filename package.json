@@ -1,0 +1,17 @@
+{
+  "name": "pixeldrain-proxy",
+  "version": "1.0.0",
+  "description": "Proxy para PixelDrain com suporte a streaming",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "cors": "latest",
+    "axios": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
